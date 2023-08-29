@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
-#Functions to add new questions to the questions.txt file
-
+#Add new questions to the questions.txt file
 
 def read_questions_from_file(fname):
     with open(fname, "r") as file:
@@ -32,6 +31,7 @@ def main():
     print(read_questions_from_file(fname))
     ask_to_add_question_to_file(fname)
 
-main()
+if__name__ = "_main_":
+    main()
 
 
